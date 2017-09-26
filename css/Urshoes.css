@@ -1,0 +1,291 @@
+* {
+	list-style: none;
+}
+
+#top-header {
+	background-color: #0F0F0F;
+	/*height: 40px;*/
+	line-height: 40px;
+	color: #fff;
+	font-family: "微软雅黑";
+}
+
+
+/*a:link {color: red !important;}  未访问的链接 */
+
+
+/*a:visited {color: green}	 已访问的链接 */
+
+
+/*a:hover {color: black !important}	 鼠标移动到链接上 */
+
+
+/*a:active {color: yellow}	 选定的链接，即鼠标按下去的时候不松开显示的状态 */
+
+#top-header a {
+	text-decoration: none;
+	color: #ccc;
+}
+
+#top-header a:hover {
+	text-decoration: none;
+	color: skyblue;
+}
+
+.main-menu ul {
+	padding: 0px;
+	margin: 0px;
+	text-align: center;
+}
+
+.main-menu li {
+	list-style: none;
+	display: inline-block;
+	padding: 50px 0;
+}
+
+.main-menu a {
+	font-weight: 600;
+	font-size: 14px;
+	color: #000;
+	text-transform: uppercase;
+	margin:0 21px;
+}
+
+.main-menu a:hover {
+	text-decoration: none;
+	color: grey;
+}
+
+.search-box {
+  text-align: right;
+  margin: 50px 0;
+  position: relative;
+}
+
+.search-box input {
+  margin-top: 0px;
+}
+/*.home-account a {
+  display: inline-block;
+  margin: 0px auto;
+}*/
+.home-account {
+  text-align: center;
+  padding: 5px 0;
+}
+
+.cart-info {
+  padding: 5px 0;
+}
+.logo {
+  text-align: center;
+}
+#carousel-example-generic{
+	margin-bottom: 50px;
+}
+#product>h1{
+	color:gray;
+}
+#product a:hover{
+	text-decoration: none;
+	color:gold;
+	
+}
+#homes-nike{	
+	width: 130px;
+	height: 130px;
+	border-radius: 50%;
+	background: url(../img/nike.jpg)0 -20px ;
+	background-size: 100%;
+	cursor: pointer;
+	margin: 0 auto;
+}
+.thumbnail{
+	border: none;
+	margin-bottom:100px;
+}
+#homes-nike:hover{
+	transform: scale(1.2) rotate3d(1,1,0,360deg);
+	transition: 1s;
+	background: url(../img/nike1.jpg) 8px -40px;
+	background-size: 90%;
+}
+#homes-adidas{
+	width: 130px;
+	height: 130px;
+	border-radius: 50%;
+	background: url(../img/adidas.jpg)0 -35px ;
+	background-size: 100%;
+	cursor: pointer;
+	margin: 0 auto;
+}
+#homes-adidas:hover{
+	transform: scale(1.2) rotate3d(1,1,4,360deg);
+	transition: 1s;
+	background: url(../img/adidas1.jpg)0px -35px;
+	background-size: 100%;
+}
+#homes-AJ{
+	width: 130px;
+	height: 130px;
+	border-radius: 50%;
+	border: 1px solid #ccc;
+	background: url(../img/air-jordan.jpg)no-repeat -25px 10px ;
+	background-size: 145%;
+	cursor: pointer;
+	margin: 0 auto;
+}
+#homes-AJ:hover{
+	transform: scale(1.2) rotate3d(1,2,2,360deg);
+	transition: 1s;
+	background: url(../img/air-jordan1.jpg)-30px 0px;
+	background-size: 150%;
+}
+#homes-acics{
+	width: 130px;
+	height: 130px;
+	border-radius: 50%;
+	border:1px solid #ccc;
+	background: url(../img/asics.jpg)0 5px;
+	background-size: 100%;
+	cursor: pointer;
+	margin: 0 auto;	
+}
+#homes-acics:hover{
+	transform: scale(1.2);
+	transition: 1s;
+	background: url(../img/asics1.jpg)no-repeat 0 13px;
+	background-size: 100%;
+}
+#homes-NB{
+	width: 130px;
+	height: 130px;
+	border-radius: 50%;
+	border:1px solid #ccc;
+	background: url(../img/NB1.jpg)no-repeat;
+	background-size: 100%;
+	cursor: pointer;
+	margin: 0 auto;	
+}
+#homes-NB:hover{
+	transform: scale(1.2);
+	transition: 1s;
+	background: url(../img/NB.jpg);
+	background-size: 100%;
+}
+#homes-vans{
+	width: 130px;
+	height: 130px;
+	border-radius: 50%;
+	background: url(../img/vans.jpg);
+	background-size: 100%;
+	cursor: pointer;
+	margin: 0 auto;	
+}
+#homes-vans:hover{
+	transform: scale(1.2) rotate3d(2,1,2,360deg);
+	transition: 1s;
+	background: url(../img/vans1.jpg);
+	background-size: 100%;
+}
+#homes-puma{
+	width: 130px;
+	height: 130px;
+	border-radius: 50%;
+	border:1px solid #ccc;
+	background: url(../img/puma.jpg)-10px 0px;
+	background-size: 120%;
+	cursor: pointer;
+	margin: 0 auto;	
+}
+#homes-puma:hover{
+	transform: scale(1.2) rotate3d(2,3,1,360deg);
+	transition: 1s;
+	background: url(../img/puma1.jpg)0px 0px;
+	background-size: 100%;
+}
+#homes-saucony{
+	width: 130px;
+	height: 130px;
+	border-radius: 50%;
+	border:1px solid #ccc;
+	background: url(../img/saucony.jpg)-5px 0px;
+	background-size: 120%;
+	cursor: pointer;
+	margin: 0 auto;	
+}
+#homes-saucony:hover{
+	transform: scale(1.2) rotate3d(1,1,2,360deg);
+	transition: 1s;
+	background: url(../img/saucony1.jpg)no-repeat -10px -30px;
+	background-size: 120%;
+}
+#new>h1{
+	color:gray;
+}
+#new img{
+	width: 360px;
+	height: 360px;
+}
+.col-md-4{
+	padding-bottom: 50px;
+}
+.item>h4:nth-of-type(3){
+	color: goldenrod;
+}
+.shop-list{
+	line-height: 24px;
+}
+.content-show{
+	position: absolute;
+	left:10px;
+	width: 350px;
+	height: 500px;
+	top: 260px;
+	color:#fff;
+	background-color: rgba(0,0,0,0.3);
+	transition: 1s;
+}
+.content:hover .content-show{
+	top:10px
+}
+.content{
+	width: 370px;
+	height: 350px;
+	position: relative;
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+.social-bottom img{
+	width: 50px;
+	height:50px;
+	margin: 20px 10px;
+	cursor: pointer;
+}
+.social-bottom a{
+	text-decoration: none;
+}
+.show-2cart{
+	opacity: 0;
+	width:200px;
+	height: 80px;
+	transition: 2s;
+	font-size: 16px;
+	font-family: cursive;
+}
+.social-bottom:hover .show-2cart{
+	opacity: 1;
+}
+#clock{
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	background-color: transparent;
+	position: absolute;
+	top: 2%;
+	z-index: 2;
+	left: 56%;
+	display: none;
+}

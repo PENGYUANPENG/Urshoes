@@ -1,0 +1,46 @@
+.bg-banner {
+	height: 120px;
+	background-image: url(../img/banner-star.jpg);
+	background-size: cover;
+	color: #fff;
+	font-family: "微软雅黑";
+	line-height: 30px;
+	margin-bottom: 20px;
+}
+
+h1 {
+	color: gray;
+}
+.about-team{
+	margin: 20px auto;
+	padding: 5px;
+}
+.contact img:hover{
+	transform: scale(1.1);
+}
+.contact-1:hover .contact1{
+	opacity: 1;
+}
+.contact-2:hover .contact2{
+	opacity: 1;
+}
+.contact-3:hover .contact3{
+	opacity: 1;
+}
+.contact-4:hover .contact4{
+	opacity: 1;
+}
+.contact img{
+	width: 50px;
+	height:50px;
+	margin: 0 5px;
+}
+.contact{
+	margin: 0 auto;
+	opacity: 0;
+	transition: 1s;
+	cursor: pointer;
+}
+.contact-1,.contact-2,.contact-3,.contact-4{
+	margin: 10px auto;
+}

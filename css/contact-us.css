@@ -1,0 +1,72 @@
+.bg-banner {
+	height: 120px;
+	background-image: url(../img/banner-star.jpg);
+	background-size: cover;
+	color: #fff;
+	font-family: "微软雅黑";
+	line-height: 30px;
+	margin-bottom: 20px;
+}
+
+h1 {
+	color: gray;
+}
+
+#email {
+	margin-bottom: 30px;
+}
+
+html,body {
+	margin: 0;
+	padding: 0;
+}
+.iw_poi_title {
+	color: #CC5522;
+	font-size: 14px;
+	font-weight: bold;
+	overflow: hidden;
+	padding-right: 13px;
+	white-space: nowrap
+}
+
+.iw_poi_content {
+	font: 12px arial, sans-serif;
+	overflow: visible;
+	padding-top: 4px;
+	white-space: -moz-pre-wrap;
+	word-wrap: break-word
+}
+#dituContent {
+	width:70%;
+	height: 300px;
+	margin: 0 auto;
+	border: #ccc solid 1px;
+	border-radius: 10px;
+	transition: 2s;
+}
+#dituContent:hover{
+	width: 100%;
+}
+.primary{
+	width: 300px;
+	height: 100px;
+	display: block;
+	position: fixed;
+	top: 40%;
+	left: 45%;
+	display: none;
+	z-index: 13; 
+}
+.mask{     
+	    position: absolute; 
+	    top: 0px; 
+	    filter: alpha(opacity=60); 
+	    background-color: #777;     
+	    z-index: 12; 
+	    left: 0px;
+	    width: 100%;
+	    height: 3000px;     
+	    opacity:0.5; 
+	    -moz-opacity:0.5;
+	    display: none;
+}

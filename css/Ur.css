@@ -1,0 +1,350 @@
+*{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+}
+body{
+	background: url(../img/star.jpg);
+	background-size: 100% ;
+}
+#head-logo{
+	display: block;
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	left:-5%;
+	border-radius: 50%;
+	background: url(../img/thelogo.jpg)-23px -20px ;
+	background-size: 150%;
+	opacity: 0.5;
+}
+#head-logo:hover{
+	left:0;
+}
+#home{
+	width: 100%;
+	height: 100%;
+}
+#homes{
+/*	position: relative;*/
+	width: 500px;
+	height: 300px;
+	margin:0 auto;
+	text-align: center;
+	line-height: 300px;
+	margin-top: 13%;
+	overflow: hidden;
+	cursor: pointer;;
+}
+ul#homes-boy{
+	width:500px;
+	height: 1000px;
+	top:0px;
+	position: relative;
+	}
+ul#homes-boy>li{
+	position: relative;
+	width:500px;
+	height: 300px;
+}
+#U{
+	font-family: tahoma;
+	font-size: 200px;
+	color:lemonchiffon;
+}
+#r{
+	font-family: "bodoni mt";
+	font-size:100px;
+	color: lemonchiffon;
+}
+#shoes{
+	padding-left: 40px;
+	font-family: "edwardian script itc";
+	font-size: 150px;
+	color: lemonchiffon;
+}
+#homes-shoes{
+	float: left;
+	width:500px;
+	height:480px;
+	background: url(../img/homes.PNG);
+	background-size: 100%;
+}
+#homes-boy:hover{
+	animation: hua 5s ease-in-out infinite;
+}
+@keyframes hua{
+	from{top:0;}
+	to{top:-650px;}
+}
+@keyframes drop{
+	from{transform: rotate(360deg);}
+	to{top:0px}
+}
+#homes-nike{	
+	float: left;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	background: url(../img/nike.jpg)0 -20px ;
+	background-size: 100%;
+	cursor: pointer;
+	margin-left:10px;
+	animation: drop 0.4s linear infinite;
+	animation-iteration-count:1;
+}
+#homes-nike:hover{
+	transform: scale(1.5) rotate3d(1,1,0,360deg);
+	transition: 1s;
+	background: url(../img/nike1.jpg) 8px -30px;
+	background-size: 90%;
+}
+#homes-adidas{
+	float: left;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	background: url(../img/adidas.jpg)0 -27px ;
+	background-size: 100%;
+	cursor: pointer;
+	margin-left: 20px;
+	animation: drop 0.6s linear infinite;
+	animation-iteration-count:1;
+}
+#homes-adidas:hover{
+	transform: scale(1.5) rotate3d(1,1,4,360deg);
+	transition: 1s;
+	background: url(../img/adidas1.jpg)0px -25px;
+	background-size: 100%;
+}
+#homes-AJ{
+	float: left;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	border: 1px solid #ccc;
+	background: url(../img/air-jordan.jpg)no-repeat -20px 10px ;
+	background-size: 145%;
+	cursor: pointer;
+	margin-left: 20px;
+	animation: drop 0.8s linear infinite;
+	animation-iteration-count:1;
+}
+#homes-AJ:hover{
+	transform: scale(1.5) rotate3d(1,2,2,360deg);
+	transition: 1s;
+	background: url(../img/air-jordan1.jpg)-25px 0px;
+	background-size: 150%;
+}
+#homes-acics{
+	float: left;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	border:1px solid #ccc;
+	background: url(../img/asics.jpg)0 5px;
+	background-size: 100%;
+	cursor: pointer;
+	margin-left: 20px;
+	animation: drop 1.0s linear infinite;
+	animation-iteration-count:1;
+}
+#homes-acics:hover{
+	transform: scale(1.5);
+	transition: 1s;
+	background: url(../img/asics1.jpg)no-repeat 0 13px;
+	background-size: 100%;
+}
+#homes-NB{
+	float: left;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	border:1px solid #ccc;
+	background: url(../img/NB1.jpg)no-repeat;
+	background-size: 100%;
+	cursor: pointer;
+	margin-left: 20px;
+	animation: drop 1.2s linear infinite;
+	animation-iteration-count:1;
+}
+#homes-NB:hover{
+	transform: scale(1.5);
+	transition: 1s;
+	background: url(../img/NB.jpg);
+	background-size: 100%;
+}
+#homes-vans{
+	float: left;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	background: url(../img/vans.jpg);
+	background-size: 100%;
+	cursor: pointer;
+	margin-left: 20px;
+	animation: drop 1.4s linear infinite;
+	animation-iteration-count:1;
+}
+#homes-vans:hover{
+	transform: scale(1.5) rotate3d(2,1,2,360deg);
+	transition: 1s;
+	background: url(../img/vans1.jpg);
+	background-size: 100%;
+}
+#homes-puma{
+	float: left;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	border:1px solid #ccc;
+	background: url(../img/puma.jpg)-10px 0px;
+	background-size: 120%;
+	cursor: pointer;
+	margin-left: 20px;
+	animation: drop 1.6s linear infinite;
+	animation-iteration-count:1;
+}
+#homes-puma:hover{
+	transform: scale(1.5) rotate3d(2,3,1,360deg);
+	transition: 1s;
+	background: url(../img/puma1.jpg)0px 0px;
+	background-size: 100%;
+}
+#homes-soucony{
+	float: left;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	border:1px solid #ccc;
+	background: url(../img/saucony.jpg)-5px 0px;
+	background-size: 120%;
+	cursor: pointer;
+	margin-left: 20px;
+	animation: drop 1.8s linear infinite;
+	animation-iteration-count:1;
+}
+#homes-soucony:hover{
+	transform: scale(1.5) rotate3d(1,1,2,360deg);
+	transition: 1s;
+	background: url(../img/saucony1.jpg)no-repeat -10px -20px;
+	background-size: 120%;
+}
+#logo{
+	width: 1050px;
+	height: 165px;
+	margin: 0 auto;
+}
+#msg-nike{
+	display:none;
+	position: fixed;
+	width: 1250px;
+	height: 400px;
+	left:14%;
+	top:30%;
+	border-radius: 3% ;
+	background:url(../img/nike3.jpg)no-repeat 0px -120px;
+	background-size: 100%;
+	opacity: 0.9;
+}
+.title>h1{
+	font-size: 150px;
+	font-family: "微软雅黑";
+	text-align: center;
+	font-weight: bold;
+	color:#fff;
+}
+.title>h3{
+	text-align: center;
+	color:#FFF;
+}
+.title>p{
+	font-size: 20px;
+	font-family: "微软雅黑";
+	color:#fff;
+}
+#msg-adidas{
+	display:none;
+	position: fixed;
+	width: 1250px;
+	height: 400px;
+	left:14%;
+	top:30%;
+	border-radius: 3% ;
+	background:url(../img/adidas3.jpg)no-repeat 0px -120px;
+	background-size: 100%;
+	opacity: 0.9;
+}
+#msg-AJ{
+	display:none;
+	position: fixed;
+	width: 1250px;
+	height: 400px;
+	left:14%;
+	top:30%;
+	border-radius: 3% ;
+	background:url(../img/air-jordan2.jpg)no-repeat 0px -300px;
+	background-size: 100%;
+	opacity: 0.9;
+}
+#msg-asics{
+	display:none;
+	position: fixed;
+	width: 1250px;
+	height: 400px;
+	left:14%;
+	top:30%;
+	border-radius: 3% ;
+	background:url(../img/asics2.jpg)no-repeat 0px -270px;
+	background-size: 100%;
+	opacity: 0.9;
+}
+#msg-NB{
+	display:none;
+	position: fixed;
+	width: 1250px;
+	height: 400px;
+	left:14%;
+	top:30%;
+	border-radius: 3% ;
+	background:url(../img/NB2.jpg)no-repeat 0px -50px;
+	background-size: 100%;
+	opacity: 0.9;
+}
+#msg-vans{
+	display:none;
+	position: fixed;
+	width: 1250px;
+	height: 400px;
+	left:14%;
+	top:30%;
+	border-radius: 3% ;
+	background:url(../img/vans2.jpg)no-repeat 0px -50px;
+	background-size: 100%;
+	opacity: 0.9;
+}
+#msg-puma{
+	display:none;
+	position: fixed;
+	width: 1250px;
+	height: 400px;
+	left:14%;
+	top:30%;
+	border-radius: 3% ;
+	background:url(../img/puma2.jpg)no-repeat 0px -20px;
+	background-size: 100%;
+	opacity: 0.9;
+}
+#msg-saucony{
+	display:none;
+	position: fixed;
+	width: 1250px;
+	height: 400px;
+	left:14%;
+	top:30%;
+	border-radius: 3% ;
+	background:url(../img/saucony2.jpg)no-repeat 0px -200px;
+	background-size: 100%;
+	opacity: 0.9;
+}

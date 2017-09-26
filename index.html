@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="Bootstrap-3.3.7/css/bootstrap.css" />
+		<link rel="stylesheet" type="text/css" href="css/Urshoes.css" />
+		<link rel="stylesheet" type="text/css" href="css/hover-min.css"/>
+		<script src="JS/jquery-3.2.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="Bootstrap-3.3.7/js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="JS/UrShoes.js" type="text/javascript" charset="utf-8"></script>
+		<script>(function(T,h,i,n,k,P,a,g,e){g=function(){P=h.createElement(i);a=h.getElementsByTagName(i)[0];P.src=k;P.charset="utf-8";P.async=1;a.parentNode.insertBefore(P,a)};T["ThinkPageWeatherWidgetObject"]=n;T[n]||(T[n]=function(){(T[n].q=T[n].q||[]).push(arguments)});T[n].l=+new Date();if(T.attachEvent){T.attachEvent("onload",g)}else{T.addEventListener("load",g,false)}}(window,document,"script","tpwidget","//widget.seniverse.com/widget/chameleon.js"))</script>
+		<title></title>
+	</head>
+
+	<body>
+		<!--导航条部分-开始-->
+		<header>
+			<div id="top-header">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-md-3 col-xs-4 col-sm-4">
+							<div class="home-account">
+								<a href="index.html">首页</a>
+								&nbsp;&nbsp;&nbsp;
+								<a href="Urshoes-index.html">My UrShoes</a>
+							</div>
+						</div>
+						<div class="col-md-3"></div>
+						<div class="col-md-3 col-xs-5 col-sm-5 text-right" id="clock_show">
+							<div class="cart-info">
+							</div>
+						</div>
+						<div id="tp-weather-widget" class="col-md-3 col-xs-3 col-sm-3"></div>
+					</div>
+				</div>
+			</div>
+
+			<div class="container">
+				<div class="row">
+					<div class="col-md-2 navbar-header">
+						<div class="logo">
+							<a href="index.html"><img src="img/thelogo.png" title="Ur Shoes" alt="UrShoes Website Template" style="width: 140px; height: 120px;"></a>
+						</div>
+					</div>
+					<div class="col-md-7">
+						<div class="main-menu">
+							<ul>
+								<li>
+									<a href="index.html">首页</a>
+								</li>
+								<li>
+									<a href="about-us.html">关于</a>
+								</li>
+								<li>
+									<a href="products.html">产品</a>
+								</li>
+								<li>
+									<a href="contact-us.html">联系我们</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="input-group search-box">
+							<input type="text" class="form-control" placeholder="Search for...">
+							<span class="input-group-btn">
+       						<button class="btn btn-default" type="button"><span class="glyphicon glyphicon-search"></span></button>
+							</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			</div>
+		</header>
+		<!--导航条部分-结束-->
+		<!--轮播图部分-开始-->
+		<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+			<!-- Indicators -->
+			<ol class="carousel-indicators">
+				<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+				<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+				<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+				<li data-target="#carousel-example-generic" data-slide-to="3"></li>
+			</ol>
+
+			<!-- Wrapper for slides -->
+			<div class="carousel-inner" role="listbox">
+				<div class="item active">
+					<a href="http://NIKE.COM" target="_blank"><img src="img/AJshoes.jpg" alt="..."></a>
+				</div>
+				<div class="item">
+					<a href="http://www.adidas.com.cn" target="_blank"><img src="img/adshoes.jpg" alt="..."></a>
+				</div>
+				<div class="item">
+					<a href="http://NIKE.COM" target="_blank"><img src="img/nkshoes.jpg" alt="..."></a>
+				</div>
+				<div class="item">
+					<a href="https://vans.com.cn" target="_blank"><img src="img/vansshoes.jpg" alt="..."></a>
+				</div>
+			</div>
+
+			<!-- Controls -->
+			<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+				<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			</a>
+			<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+				<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			</a>
+		</div>
+		<!--轮播图部分-结束-->
+		<!--图标介绍-开始-->
+		<div class="container text-center" id="product">
+			<h1>特色商标</h1>
+			<hr />
+			<div class="row">
+				<div class="col-sm-6 col-md-3 ">
+					<div class="thumbnail text-center">
+						<div id="homes-nike"></div>
+						<div class="caption">
+							<h2><a href="http://nike.com" target="_blank">NIKE</a></h2>
+							<small>美国体育品牌，NIKE公司总部位于美国俄勒冈州波特兰市。公司生产的体育用品包罗万象，例如服装，鞋类，运动器材等。
+				NIKE是全球著名的体育运动品牌，英文原意指希腊胜利女神，中文译为耐克。</small>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-3 ">
+					<div class="thumbnail text-center">
+						<div id="homes-adidas"></div>
+						<div class="caption">
+							<h2><a href="http://www.adidas.com.cn" target="_blank">Adidas</a></h2>
+							<small>德国体育品牌,adidas（阿迪达斯）创办于1949年，是德国运动用品制造商阿迪达斯AG成员公司。
+				以其创办人阿道夫·阿迪·达斯勒（Adolf Adi Dassler）命名<br />口号：adidas is all in（全倾全力）</small>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-3 ">
+					<div class="thumbnail text-center">
+						<div id="homes-AJ"></div>
+						<div class="caption">
+							<h2><a href="https://www.nike.com/cn/zh_cn/c/jordan" target="_blank">AIR JORDAN</a></h2>
+							<small>NIKE旗下品牌,AJ 也是Air jordan的简称。nike旗下的高端品牌。专门为乔丹所创立的品牌。“Air Jordan”，这是nike为乔丹推出的名字。
+				不仅体现出鞋子的科技工艺，也可以反映出乔丹打球的风格。</small>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-3 ">
+					<div class="thumbnail text-center">
+						<div id="homes-acics"></div>
+						<div class="caption">
+							<h2><a href="">ASICS</a></h2>
+							<small>日本体育品牌,Asics（爱世克斯）是日本鬼冢八喜郎创立的跑鞋运动品牌，
+				ASICS译自拉丁格言“ anima sana in corpora sano ”， 意为“健全的精神寓于强健的体魄”。其产品代表着日本精致、专业的民族文化。	</small>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-3 ">
+					<div class="thumbnail text-center">
+						<div id="homes-NB"></div>
+						<div class="caption">
+							<h2><a href="">New Balance</a></h2>
+							<small>美国体育品牌,New Balance，1906年William J. Riley先生在美国马拉松之城波士顿成立的品牌，
+				在美国及许多国家被誉为“总统慢跑鞋”，“慢跑鞋之王”。</small>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-3 ">
+					<div class="thumbnail text-center">
+						<div id="homes-vans"></div>
+						<div class="caption">
+							<h2><a href="https://vans.com.cn" target="_blank">VANS</a></h2>
+							<small>美国极限运动品牌，Vans（范斯）是1966年3月16日由保罗·范·多伦创始的原创极限运动潮牌，公司位于美国南加州，
+				以极限运动起家，包括滑板、冲浪、BMX、滑雪等。</small>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-3 ">
+					<div class="thumbnail text-center">
+						<div id="homes-puma"></div>
+						<div class="caption">
+							<h2><a href="">PUMA</a></h2>
+							<small>德国运动品牌，PUMA（彪马）是德国运动品牌，提出全新品牌口号Forever Faster，
+				设计提供专业运动装备，产品涉及跑步、足球、高尔夫乃至赛车领域。</small>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-3 ">
+					<div class="thumbnail text-center">
+						<div id="homes-saucony"></div>
+						<div class="caption">
+							<h2><a href="">SAUCONY</a></h2>
+							<small>美国体育品牌，索康尼品牌在美国享有“运动鞋中的劳斯莱斯”美誉，公司总部位于美国，具有100多年的历史，
+				产品分为专业运动系列和运动休闲系列两大类，它是全球四大慢跑鞋品牌之一。</small>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--图标介绍-结束-->
+		<!--炫物介绍-开始-->
+		<div class="container text-center" id="new">
+			<h1>炫物介绍</h1>
+			<hr />
+			<div class="row">
+				<div class="col-sm-6 col-md-4">
+					<div class="content">
+						<img src="img/AJ11.png" alt="" class="img-thumbnail" />
+					<div class="content-show">
+						<h2><a href="https://baike.baidu.com/item/air%20jordan%2011/4029651?fr=aladdin" target="_blank">AJ-Ⅺ</a></h2>
+						<h4>In 1996</h4><br /><br /><br /><br /><br /><br /><br /><br />
+						<small>AJ11白色爆裂纹，air jordan 11是乔丹公司设计生产的一款AJ篮球鞋，发售于1996年。该款运动鞋的设计灵感源于割草机外壳，采用sole气垫，球场表现更好。
+乔丹本人曾在公开场合不止一次的表达过自己对11代的情有独钟。</small>
+					</div>
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-4">
+					<div class="content">
+						<img src="img/kobe.png" alt="" class="img-thumbnail" />
+					<div class="content-show">
+						<h2><a href="https://baike.baidu.com/item/air%20jordan%2011/4029651?fr=aladdin" target="_blank">Kobe-System</a></h2>
+						<h4>I - XII</h4><br /><br /><br /><br /><br /><br /><br /><br />
+						<small>#Kobe体系#不是一双鞋，也不只是在说篮球，是关于成功的哲学。只有受邀的精英中的精英才能加入课程，听Kobe亲自告诉你如何超越成功巅峰。Nike Zoom Kobe VII作为判断你是否已经融入#Kobe体系#的标志，特设“速度”和“力量”两种模块。</small>
+					</div>
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-4">
+					<div class="content">
+						<img src="img/asics.png" alt="" class="img-thumbnail" />
+					<div class="content-show">
+						<h2><a href="https://baike.baidu.com/item/air%20jordan%2011/4029651?fr=aladdin" target="_blank">ASICS GEL LYTE III</a></h2>
+						<h4>In 1991</h4>
+						<br /><br /><br /><br /><br /><br /><br /><br />
+						<small>诞生于 1991 年的 Gel Lyte III 一直是著名运动品牌 ASICS 旗下最具人气的鞋型之一，也是品牌近年来主打的招牌鞋款，据说上脚有踩屎般的感觉。</small>
+					</div>
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-4">
+					<div class="content">
+						<img src="img/melo.png" alt="" class="img-thumbnail" />
+					<div class="content-show">
+						<h2><a href="https://baike.baidu.com/item/air%20jordan%2011/4029651?fr=aladdin" target="_blank">MELO-Ⅺ</a></h2>
+						<h4>AJ系列</h4>
+					<br /><br /><br /><br /><br /><br /><br /><br />
+						<small>FLIGHTPLATE依然是这双鞋的核心科技。在目前的AJ实战款里都有它的身影，
+作为抗扭转和力传导的一个重要部件，它显然既具备韧性也具备刚性，在实际的应用中，
+承托板置于气垫之上确实有助于ZOOM气垫更直接地反馈表现。</small>
+					</div>
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-4">
+					<div class="content">
+						<img src="img/homes.PNG" alt="" class="img-thumbnail" />
+					<div class="content-show">
+						<h2><a href="https://baike.baidu.com/item/air%20jordan%2011/4029651?fr=aladdin" target="_blank">Black moon Series</a></h2>
+						<h4>In 2005</h4>
+					<br /><br /><br /><br /><br /><br /><br /><br />
+						<small>从 2005 年首次开启 BHM 黑人月系列的序章，每一年的 BHM 主题都会有全新的期待。
+以格外细腻的多彩纹理，渲染了 BHM 黑人月的民族风氛围，除了鞋款产品外，还将有配套服饰加入，一共有超过 28 种 BHM 主题产品。</small>
+					</div>
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-4">
+				<div class="content">
+						<img src="img/yeezy.png" alt="" class="img-thumbnail" />
+					<div class="content-show">
+						<h2><a href="https://baike.baidu.com/item/air%20jordan%2011/4029651?fr=aladdin" target="_blank">Yeezy 350 Boost</a></h2>
+						<h4>In adidas</h4>
+					<br /><br /><br /><br /><br /><br /><br /><br />
+						<small>近年火起来的椰子，虽为营销手段使价格水涨船高，不过结合adidas 当今推崇的两大科技，Primeknit技术和BOOST科技为主，算是品牌与Kanye双方对于合作的认可吧。</small>
+				</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--炫物介绍-结束-->
+		<!--经典名言-开始-->
+		<div class="container text-center">
+			<h1>他有话说</h1>
+			<hr />
+			<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+				<div class="carousel-inner" role="listbox">
+					<div class="item active">
+						<br />
+						<h4>“What I’m doing right now, I’m chasing perfection.”</h4>
+						<h4>“我现在所做的一切，都是为了追求更加完美。”</h4>
+						<br />
+						<h4>Kobe Bryant</h4>
+					</div>
+					<div class="item">
+						<br />
+						<h4>“Talent wins games,but teamwork wins championships.”</h4>
+						<h4>“天才可以赢得比赛，团队合作才能赢得冠军。”</h4>
+						<br />
+						<h4>Michael Jordan</h4>
+					</div>
+					<div class="item">
+						<br />
+						<h4>“Only God knows who works hard and who deserves it.God will not always fall asleep”</h4>
+						<h4>“只有上帝知道谁在努力,谁值得回报。而上帝不会总是睡着的。”</h4>
+						<br />
+						<h4>Cristiano Ronaldo</h4>
+					</div>
+					<div class="item">
+						<br />
+						<h4>“When you are successful, everything what you say is true.”</h4>
+						<h4>“当你成功的时候，你说的所有话都是真理。”</h4>
+						<br />
+						<h4>Jack Ma</h4>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--经典名言-结束-->
+		<!--页尾-开始-->
+		<div class="jumbotron">
+				<footer>
+					<div class="container">
+						<div class="main-footer">
+							<div class="row">
+								<div class="col-md-3 col-sm-6 col-xs-6">
+									<div class="about">
+										<h3>Sneaker基地</h3><br/>
+											<small><a rel="#" href="#">UrShoes</a> 的图片来源于网路.这里是鞋迷聚集地，欢迎您的到来。<br />提供第一手球鞋咨询！！提供最正规的球鞋交易平台！！提供最真实的球鞋辨认攻略！！更多精彩内容尽在UrShoes！！</small>
+									</div>
+								</div>
+								<div class="col-md-3  col-sm-6 col-xs-6">
+									<div class="shop-list">
+										<h3>品牌商城</h3>
+										<ul>
+											<li>
+												<i class="glyphicon glyphicon-chevron-right"></i>&nbsp;<a href="#">Nike官网</a>
+											</li>
+											<li>
+												<i class="glyphicon glyphicon-chevron-right"></i>&nbsp;<a href="#">Addidas官网</a>
+											</li>
+											<li>
+												<i class="glyphicon glyphicon-chevron-right"></i>&nbsp;<a href="#">Asics官网</a>
+											</li>
+											<li>
+												<i class="glyphicon glyphicon-chevron-right"></i>&nbsp;<a href="#">New balance官网</a>
+											</li>
+											<li>
+												<i class="glyphicon glyphicon-chevron-right"></i>&nbsp;<a href="#">Vans官网</a>
+											</li>
+											<li>
+												<i class="glyphicon glyphicon-chevron-right"></i>&nbsp;<a href="#">Puma官网</a>
+											</li>
+											<li>
+												<i class="glyphicon glyphicon-chevron-right"></i>&nbsp;<a href="#">Saucony官网</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+								<div class="col-md-3 col-sm-6">
+									<div class="recent-posts">
+										<h3>新品介绍</h3>
+										<div class="recent-post">
+											<div class="recent-post-thumb">
+												<img src="img/new-kobe.jpg" alt="">
+											</div>
+											<div class="recent-post-info">
+												<h6><a href="https://store.nike.com/cn/zh_cn/pw/kobe-bryant-%E7%AF%AE%E7%90%83/a9hZ8r1">Nike Kobe AD</a></h6>
+												<span>08/08/2017</span>
+											</div>
+										</div>
+										<div class="recent-post">
+											<div class="recent-post-thumb">
+												<img src="img/new-adidas.jpg" alt="">
+											</div>
+											<div class="recent-post-info">
+												<h6><a href="https://www.adidas.com.cn/originals_tubular?utm_source=Baidu&utm_medium=SEM&utm_term=BZPCtab3picture&utm_campaign=adidas_Brandzone&utm_content=BrandzonePC">源自街头设计，打破时尚禁锢 全新Tubular系列</a></h6>
+												<span>09/09/2017</span>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-3 col-sm-6">
+									<div class="more-info">
+										<h3>更多信息</h3>
+										<ul>
+											<li><i class="glyphicon glyphicon-earphone"></i>:010-020-0340</li>
+											<li><i class="glyphicon glyphicon-home"></i>:Dargon Studio, Dargon Street,Dargon Estate</li>
+											<li><i class="glyphicon glyphicon-envelope"></i>
+												<a href="#">666@company.com</a>
+											</li>
+										</ul>
+									</div>
+									<div class="social-bottom">
+										<h4>Follow us:</h4>
+									<div class="hvr-underline-from-center">						
+										<img src="img/wechat.png" class="wechat"/> 
+										<img src="img/weibo.png" />
+										<img src="img/QQ.png" />
+									</div>
+									<div class="show-2cart">
+										<small>Wechat: 123pyp <br />
+										Weibo: 123pyp <br />
+										QQ: 123456pyp</small>
+									</div>
+								</div>
+								</div>
+								</div>
+						</div>
+					</div>
+				</footer>
+		</div>
+		<!--页尾-计数-->
+		<p class="text-center">Copyright © 2066 <a href="">PYP</a> Collect from Website</p>
+		<div id="clock">
+			<canvas id="" width="200px" height="200px"></canvas>
+		</div>
+	</body>
+
+</html>
