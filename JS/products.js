@@ -1,39 +1,39 @@
 window.onload = function(){
 				var dataImg = [{
-					"src": "images/1.PNG"
+					"src": "images/1.png"
 				},
 				{
-					"src": "images/2.PNG"
+					"src": "images/2.png"
 				},
 				{
-					"src": "images/3.PNG"
+					"src": "images/3.png"
 				},
 				{
-					"src": "images/4.PNG"
+					"src": "images/4.png"
 				},
 				{
-					"src": "images/5.PNG"
+					"src": "images/5.png"
 				},
 				{
-					"src": "images/6.PNG"
+					"src": "images/6.png"
 				},
 				{
-					"src": "images/7.PNG"
+					"src": "images/7.png"
 				},
 				{
-					"src": "images/8.PNG"
+					"src": "images/8.png"
 				},
 				{
-					"src": "images/9.PNG"
+					"src": "images/9.png"
 				},
 				{
-					"src": "images/10.PNG"
+					"src": "images/10.png"
 				},
 				{
-					"src": "images/11.PNG"
+					"src": "images/11.png"
 				},
 				{
-					"src": "images/12.PNG"
+					"src": "images/12.png"
 				},
 				{
 					"src": "images/13.png"
@@ -42,262 +42,262 @@ window.onload = function(){
 					"src": "images/14.png"
 				},
 				{
-					"src": "images/15.PNG"
+					"src": "images/15.png"
 				},
 				{
-					"src": "images/16.PNG"
+					"src": "images/16.png"
 				},
 				{
 					"src": "images/17.png"
 				},
 				{
-					"src": "images/18.PNG"
+					"src": "images/18.png"
 				},
 				{
-					"src": "images/19.PNG"
+					"src": "images/19.png"
 				},
 				{
-					"src": "images/20.PNG"
+					"src": "images/20.png"
 				},
 				{
-					"src": "images/21.PNG"
+					"src": "images/21.png"
 				},
 				{
-					"src": "images/22.PNG"
+					"src": "images/22.png"
 				},
 				{
-					"src": "images/23.PNG"
+					"src": "images/23.png"
 				},
 				{
-					"src": "images/24.PNG"
+					"src": "images/24.png"
 				},
 				{
-					"src": "images/25.PNG"
+					"src": "images/25.png"
 				},
 				{
-					"src": "images/26.PNG"
+					"src": "images/26.png"
 				},
 				{
-					"src": "images/27.PNG"
+					"src": "images/27.png"
 				},
 				{
-					"src": "images/28.PNG"
+					"src": "images/28.png"
 				},
 				{
-					"src": "images/29.PNG"
+					"src": "images/29.png"
 				},
 				{
-					"src": "images/30.PNG"
+					"src": "images/30.png"
 				},
 				{
-					"src": "images/31.PNG"
+					"src": "images/31.png"
 				},
 				{
-					"src": "images/32.PNG"
+					"src": "images/32.png"
 				},
 				{
-					"src": "images/33.PNG"
+					"src": "images/33.png"
 				},
 				{
-					"src": "images/34.PNG"
+					"src": "images/34.png"
 				},
 				{
-					"src": "images/35.PNG"
+					"src": "images/35.png"
 				},
 				{
-					"src": "images/36.PNG"
+					"src": "images/36.png"
 				},
 				{
-					"src": "images/37.PNG"
+					"src": "images/37.png"
 				},
 				{
-					"src": "images/38.PNG"
+					"src": "images/38.png"
 				},
 				{
-					"src": "images/39.PNG"
+					"src": "images/39.png"
 				},
 				{
-					"src": "images/40.PNG"
+					"src": "images/40.png"
 				},
 				{
-					"src": "images/41.PNG"
+					"src": "images/41.png"
 				},
 				{
-					"src": "images/42.PNG"
+					"src": "images/42.png"
 				},
 				{
-					"src": "images/43.PNG"
+					"src": "images/43.png"
 				},
 				{
-					"src": "images/44.PNG"
+					"src": "images/44.png"
 				},
 				{
-					"src": "images/45.PNG"
+					"src": "images/45.png"
 				},
 				{
-					"src": "images/46.PNG"
+					"src": "images/46.png"
 				},
 				{
-					"src": "images/47.PNG"
+					"src": "images/47.png"
 				},
 				{
-					"src": "images/48.PNG"
+					"src": "images/48.png"
 				},
 				{
-					"src": "images/49.PNG"
+					"src": "images/49.png"
 				},
 				{
-					"src": "images/50.PNG"
+					"src": "images/50.png"
 				},
 				{
-					"src": "images/51.PNG"
+					"src": "images/51.png"
 				},
 				{
-					"src": "images/52.PNG"
+					"src": "images/52.png"
 				},
 				{
-					"src": "images/53.PNG"
+					"src": "images/53.png"
 				},
 				{
-					"src": "images/54.PNG"
+					"src": "images/54.png"
 				},
 				{
-					"src": "images/55.PNG"
+					"src": "images/55.png"
 				},
 				{
-					"src": "images/56.PNG"
+					"src": "images/56.png"
 				},
 				{
-					"src": "images/57.PNG"
+					"src": "images/57.png"
 				},
 				{
-					"src": "images/58.PNG"
+					"src": "images/58.png"
 				},
 				{
-					"src": "images/59.PNG"
+					"src": "images/59.png"
 				},
 				{
-					"src": "images/60.PNG"
+					"src": "images/60.png"
 				},
 				{
-					"src": "images/61.PNG"
+					"src": "images/61.png"
 				},
 				{
-					"src": "images/62.PNG"
+					"src": "images/62.png"
 				},
 				{
-					"src": "images/63.PNG"
+					"src": "images/63.png"
 				},
 				{
-					"src": "images/64.PNG"
+					"src": "images/64.png"
 				},
 				{
-					"src": "images/65.PNG"
+					"src": "images/65.png"
 				},
 				{
-					"src": "images/66.PNG"
+					"src": "images/66.png"
 				},
 				{
-					"src": "images/67.PNG"
+					"src": "images/67.png"
 				},
 				{
-					"src": "images/68.PNG"
+					"src": "images/68.png"
 				},
 				{
-					"src": "images/69.PNG"
+					"src": "images/69.png"
 				},
 				{
-					"src": "images/70.PNG"
+					"src": "images/70.png"
 				},
 				{
-					"src": "images/71.PNG"
+					"src": "images/71.png"
 				},
 				{
-					"src": "images/72.PNG"
+					"src": "images/72.png"
 				},
 				{
-					"src": "images/73.PNG"
+					"src": "images/73.png"
 				},
 				{
-					"src": "images/74.PNG"
+					"src": "images/74.png"
 				},
 				{
-					"src": "images/75.PNG"
+					"src": "images/75.png"
 				},
 				{
-					"src": "images/76.PNG"
+					"src": "images/76.png"
 				},
 				{
-					"src": "images/77.PNG"
+					"src": "images/77.png"
 				},
 				{
-					"src": "images/78.PNG"
+					"src": "images/78.png"
 				},
 				{
-					"src": "images/79.PNG"
+					"src": "images/79.png"
 				},
 				{
-					"src": "images/80.PNG"
+					"src": "images/80.png"
 				},
 				{
-					"src": "images/81.PNG"
+					"src": "images/81.png"
 				},
 				{
-					"src": "images/82.PNG"
+					"src": "images/82.png"
 				},
 				{
-					"src": "images/83.PNG"
+					"src": "images/83.png"
 				},
 				{
-					"src": "images/84.PNG"
+					"src": "images/84.png"
 				},
 				{
-					"src": "images/85.PNG"
+					"src": "images/85.png"
 				},
 				{
-					"src": "images/86.PNG"
+					"src": "images/86.png"
 				},
 				{
-					"src": "images/87.PNG"
+					"src": "images/87.png"
 				},
 				{
-					"src": "images/88.PNG"
+					"src": "images/88.png"
 				},
 				{
-					"src": "images/89.PNG"
+					"src": "images/89.png"
 				},
 				{
-					"src": "images/90.PNG"
+					"src": "images/90.png"
 				},
 				{
-					"src": "images/91.PNG"
+					"src": "images/91.png"
 				},
 				{
-					"src": "images/92.PNG"
+					"src": "images/92.png"
 				},
 				{
-					"src": "images/93.PNG"
+					"src": "images/93.png"
 				},
 				{
-					"src": "images/94.PNG"
+					"src": "images/94.png"
 				},
 				{
-					"src": "images/95.PNG"
+					"src": "images/95.png"
 				},
 				{
-					"src": "images/96.PNG"
+					"src": "images/96.png"
 				},
 				{
-					"src": "images/97.PNG"
+					"src": "images/97.png"
 				},
 				{
-					"src": "images/98.PNG"
+					"src": "images/98.png"
 				},
 				{
-					"src": "images/99.PNG"
+					"src": "images/99.png"
 				},
 				{
-					"src": "images/100.PNG"
+					"src": "images/100.png"
 				},
 			];
 			
