@@ -1,3 +1,4 @@
+window.onload=function(){
 $(function(){
 	var num=0;
 	$('#logo div').click(function(event){
@@ -14,3 +15,4 @@ $(function(){
 	})
 	
 })
+}
