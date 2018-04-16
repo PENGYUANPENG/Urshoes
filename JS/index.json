@@ -1,0 +1,123 @@
+{
+    "feature": [{
+            "imgUrl": "img/AJ11.png",
+            "linkUrl": "https://baike.baidu.com/item/air%20jordan%2011/4029651?fr=aladdin",
+            "productname": "AJ-Ⅺ",
+            "productinfo": "In 1996",
+            "productmsg": "AJ11白色爆裂纹，air jordan 11是乔丹公司设计生产的一款AJ篮球鞋，发售于1996年。该款运动鞋的设计灵感源于割草机外壳，采用sole气垫，球场表现更好。 乔丹本人曾在公开场合不止一次的表达过自己对11代的情有独钟。"
+        },
+        {
+            "imgUrl": "img/kobe.png",
+            "linkUrl": "https://baike.baidu.com/item/air%20jordan%2011/4029651?fr=aladdin",
+            "productname": "Kobe-System",
+            "productinfo": "I - XII",
+            "productmsg": "#Kobe体系#不只是一双鞋，也不只是在说篮球，是关于成功的哲学。只有受邀的精英中的精英才能加入课程，听Kobe亲自告诉你如何超越成功巅峰。Nike Zoom Kobe VII作为判断你是否已经融入#Kobe体系#的标志，特设“速度”和“力量”两种模块。"
+        },
+        {
+            "imgUrl": "img/asics.png",
+            "linkUrl": "https://baike.baidu.com/item/air%20jordan%2011/4029651?fr=aladdin",
+            "productname": "ASICS GEL LYTE III",
+            "productinfo": "In 1991",
+            "productmsg": "诞生于 1991 年的 Gel Lyte III 一直是著名运动品牌 ASICS 旗下最具人气的鞋型之一，也是品牌近年来主打的招牌鞋款，据说上脚有踩屎般的感觉。"
+        },
+        {
+            "imgUrl": "img/melo.png",
+            "linkUrl": "https://baike.baidu.com/item/air%20jordan%2011/4029651?fr=aladdin",
+            "productname": "MELO-Ⅺ",
+            "productinfo": "AJ系列",
+            "productmsg": "FLIGHTPLATE依然是这双鞋的核心科技。在目前的AJ实战款里都有它的身影， 作为抗扭转和力传导的一个重要部件，它显然既具备韧性也具备刚性，在实际的应用中， 承托板置于气垫之上确实有助于ZOOM气垫更直接地反馈表现。"
+        },
+        {
+            "imgUrl": "img/homes.PNG",
+            "linkUrl": "https://baike.baidu.com/item/air%20jordan%2011/4029651?fr=aladdin",
+            "productname": "Black moon Series",
+            "productinfo": "In 2005",
+            "productmsg": "从 2005 年首次开启 BHM 黑人月系列的序章，每一年的 BHM 主题都会有全新的期待。 以格外细腻的多彩纹理，渲染了 BHM 黑人月的民族风氛围，除了鞋款产品外，还将有配套服饰加入，一共有超过 28 种 BHM 主题产品。"
+        },
+        {
+            "imgUrl": "img/yeezy.png",
+            "linkUrl": "https://baike.baidu.com/item/air%20jordan%2011/4029651?fr=aladdin",
+            "productname": "Yeezy 350 Boost",
+            "productinfo": "In adidas",
+            "productmsg": "近年火起来的椰子，虽为营销手段使价格水涨船高，不过结合adidas 当今推崇的两大科技，Primeknit技术和BOOST科技为主，算是品牌与Kanye双方对于合作的认可吧。"
+        }
+    ],
+    "brands": [{
+            "brandname": "NIKE",
+            "brandmsg": "美国体育品牌，NIKE公司总部位于美国俄勒冈州波特兰市。公司生产的体育用品包罗万象，例如服装，鞋类，运动器材等。 NIKE是全球著名的体育运动品牌，英文原意指希腊胜利女神，中文译为耐克。",
+            "brandUrl": "www.nike.com"
+        },
+        {
+            "brandname": "Adidas",
+            "brandmsg": "德国体育品牌,adidas（阿迪达斯）创办于1949年，是德国运动用品制造商阿迪达斯AG成员公司。 以其创办人阿道夫·阿迪·达斯勒（Adolf Adi Dassler）命名<br />口号：adidas is all in（全倾全力）",
+            "brandUrl": "www.adidas.com.cn"
+        },
+        {
+            "brandname": "AIR JORDAN",
+            "brandmsg": "NIKE旗下品牌,AJ 也是Air jordan的简称。nike旗下的高端品牌。专门为乔丹所创立的品牌。“Air Jordan”，这是nike为乔丹推出的名字。 不仅体现出鞋子的科技工艺，也可以反映出乔丹打球的风格。",
+            "brandUrl": "www.nike.com/cn/zh_cn/c/jordan"
+        },
+        {
+            "brandname": "ASICS",
+            "brandmsg": "日本体育品牌,Asics（爱世克斯）是日本鬼冢八喜郎创立的跑鞋运动品牌， ASICS译自拉丁格言“ anima sana in corpora sano ”， 意为“健全的精神寓于强健的体魄”。其产品代表着日本精致、专业的民族文化。",
+            "brandUrl": "http://www.asics.com.cn/"
+        },
+        {
+            "brandname": "New Balance",
+            "brandmsg": "美国体育品牌,New Balance，1906年William J. Riley先生在美国马拉松之城波士顿成立的品牌， 在美国及许多国家被誉为“总统慢跑鞋”，“慢跑鞋之王”。",
+            "brandUrl": "http://www.newbalance.com.cn/"
+        },
+        {
+            "brandname": "VANS",
+            "brandmsg": "美国极限运动品牌，Vans（范斯）是1966年3月16日由保罗·范·多伦创始的原创极限运动潮牌，公司位于美国南加州， 以极限运动起家，包括滑板、冲浪、BMX、滑雪等。",
+            "brandUrl": "www.vans.com.cn"
+        },
+        {
+            "brandname": "PUMA",
+            "brandmsg": "德国运动品牌，PUMA（彪马）是德国运动品牌，提出全新品牌口号Forever Faster， 设计提供专业运动装备，产品涉及跑步、足球、高尔夫乃至赛车领域。",
+            "brandUrl": "www.cn.puma.com/"
+        },
+        {
+            "brandname": "SAUCONY",
+            "brandmsg": "美国体育品牌，索康尼品牌在美国享有“运动鞋中的劳斯莱斯”美誉，公司总部位于美国，具有100多年的历史， 产品分为专业运动系列和运动休闲系列两大类，它是全球四大慢跑鞋品牌之一。",
+            "brandUrl": "www.saucony-china.com/"
+        }
+    ],
+    "banner": [{
+            "itemUrl": "img/AJshoes.jpg",
+            "linkUrl": "http://NIKE.COM",
+            "itemmsg": "..."
+        },
+        {
+            "itemUrl": "img/adshoes.jpg",
+            "linkUrl": "http://www.adidas.com.cn",
+            "itemmsg": "..."
+        },
+        {
+            "itemUrl": "img/nkshoes.jpg",
+            "linkUrl": "http://NIKE.COM",
+            "itemmsg": "..."
+        }, {
+            "itemUrl": "img/vansshoes.jpg",
+            "linkUrl": "https://vans.com.cn",
+            "itemmsg": "..."
+        }
+    ],
+    "wordsbanner":[{
+            "chinese": "“我现在所做的一切，都是为了追求更加完美。”",
+            "english": "“What I’m doing right now, I’m chasing perfection.”",
+            "author": "Kobe Bryant"
+        },{
+            "chinese": "“天才可以赢得比赛，团队合作才能赢得冠军。”",
+            "english": "“Talent wins games,but teamwork wins championships.”",
+            "author": "Michael Jordan"
+        },{
+            "chinese": "“只有上帝知道谁在努力,谁值得回报。而上帝不会总是睡着的。”",
+            "english": "“Only God knows who works hard and who deserves it.God will not always fall asleep”",
+            "author": "Cristiano Ronaldo"
+        },{
+            "chinese": "“当你成功的时候，你说的所有话都是真理。”",
+            "english": "“When you are successful, everything what you say is true.”",
+            "author": "Jack Ma"
+        }]
+}
